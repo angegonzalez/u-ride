@@ -1,0 +1,27 @@
+.login-card-background
+{
+    margin-top: 2rem;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    border-radius: 11px;
+    margin:2rem;
+
+}
+.login-card
+{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+    border-radius: 11px;
+    transition: all 0.3s ease;
+}
+.login-card:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46, 61, 73, 0.2);
+  }
+.login-card .btn
+{
+    margin-top: 1rem;
+    width: 100%;
+}
